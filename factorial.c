@@ -9,8 +9,10 @@ unsigned long long factorial(int n) {
         return 1; // Факториал 0 и 1 равен 1
     }
     unsigned long long result = 1;
+
     for (int i = 2; i <= n; i++) {
         result *= i;
+
     }
     return result;
 }
