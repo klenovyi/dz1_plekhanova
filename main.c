@@ -13,7 +13,7 @@ int main() {
     if (result == 0 && number < 0) {
         printf("Факториал отрицательного числа не определен\n");
     } else {
-
+	printf("DEV3 \n");
         printf("Факториал %d равен %llu\n", number, result);
     }
     return 0;
